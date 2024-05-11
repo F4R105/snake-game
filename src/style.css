@@ -1,0 +1,23 @@
+#game-board {
+    --size: 300px;
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid black;
+    position: relative;
+}
+
+.snake-part {
+    --size: 20px;
+    width: var(--size);
+    height: var(--size); 
+    background-color: green; 
+    position: absolute;
+}
+
+#food {
+    --size: 20px;
+    width: var(--size);
+    height: var(--size);
+    background-color: red; 
+    position: absolute; 
+}
